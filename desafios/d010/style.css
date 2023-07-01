@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'robo';
+    src: url(idroid.otf);
+}
+
+*{
+    padding: 0px;
+    margin: auto;
+}
+
+body{
+    background-color: #84E1AD;
+    width: 800px;
+}
+
+header{
+    background-image: linear-gradient(#38c968 , #2db05d,#1f8845, #11572B);
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin: auto -705px;
+}
+
+header > h1 {
+    padding: 45px;
+}
+
+nav{
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+}
+
+nav > a:hover{
+    border-radius: 3px;
+    border-style: none;
+    background-color: #2e864c;
+}
+
+section{
+    background-color: whitesmoke;
+    text-align: justify;
+    margin: auto 0px 10px auto;
+    padding: 0px 40px 40px 40px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+ section > h1,h2{
+    font-family: 'robo';
+}
+
+section > h1{
+    color: #26954b;
+    padding: 15px 0px 0px 0px ;
+}
+
+section > h2 {
+    color: #26954b;
+    background-image: linear-gradient( to right, #28c762, #38d571,#3fd87a,#dce7e0);
+    padding: 0px;
+}
+
+h2 > a::after{
+    content: ' ola';
+    contain: 'ola';
+}
+
+a{
+    color: #07712a;
+    text-decoration: none;
+}
+
+p{
+    padding: 15px;
+}
+
+#diferente{
+    background-color: #9fdbb5;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+    padding: 0px 0px 5px 0px;
+
+}
+
+#diferente > h3{
+    color: rgb(232, 231, 231);
+    background-color: #2e864c;
+    border-radius: 5px 5px 0px 0px;
+    padding: 3px 5px 2px 1px;
+}
+
+#diferente > p {
+    color: black;
+    padding: 10px;
+}
+
+#links{
+    color: black;
+    padding: 10px;
+}
+
+footer{
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+footer > p {
+    padding: 3px;
+}
+
+div#video{
+    background-color: #134027;
+    width: 500px;
+    padding: 30px 108px;
+    margin: auto;
+}
+
+img{
+    width: 720px;
+}
